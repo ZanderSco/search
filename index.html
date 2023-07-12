@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>
+            .search {
+                color:grey;
+                border-radius: 10px;
+                font-size: 20px;
+                font-stretch: expanded;
+            }
+        </style>
         <title>Search</title>
     </head>
     <body align="center">
         <form action="https://www.google.com/search">
-            <input style="color:grey; border-radius: 10px; font-size: 20px;" type="text" name="q">
+            <input class="search" type="text" name="q" placeholder="Search Google or type a URL">
             <input type="submit" value="Google Search">
         </form>
     </body>
