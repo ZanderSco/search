@@ -46,3 +46,18 @@ p {
     margin: 0em;
     font-style: italic;
 }
+
+.search1 {
+    border-radius: 10px;
+    font-size: 1em;
+    width: 20em;
+    height: 1.5em;
+    border-color: whitesmoke;
+    justify-content: flex-start;
+}
+
+.l_align {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:column-reverse;
+}
