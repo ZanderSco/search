@@ -25,3 +25,24 @@ ul {
     justify-self: center;
     margin-top: 2em;
 }
+
+.color {
+    display: flex;
+    justify-content: center;
+    color: darkgoldenrod;
+    font-size: 4em;
+    margin: 0em;
+}
+
+p {
+    margin: 0em;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-size: 1em;
+    margin: 0em;
+    font-style: italic;
+}

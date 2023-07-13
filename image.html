@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- <link href="styles.css" rel="stylesheet"> -->
-        <style>
-            .search {
-                color:grey;
-                border-radius: 10px;
-                font-size: 20px;
-                font-stretch: expanded;
-            }
-        </style>
+        <link href="style.css" rel="stylesheet">
         <title>Search</title>
     </head>
-    <body align="center">
-        <nav>
-            <li><a href="index.html">Google Search</a></li>
-            <li><a href="advanced.html">Advanced Search</a></li>
+    <body>
+        <nav class="r_align">
+            <ul>
+                <li><a href="index.html">Google Search</a></li>
+                <li><a href="advanced.html">Advanced Search</a></li>
+            </ul>
         </nav>
-        <form action="https://www.google.com/search">
+        <div class="color">
+            <p>Google</p>
+        </div>
+        <div class="img">
+            <p>Image</p>
+        </div>
+        <form action="https://www.google.com/search" class="center">
             <input class="search" type="text" name="q" placeholder="Search Google or type a URL">
-            <input type="submit" value="Google Search">
+            <input class="width" type="submit" value="Google Search">
             <input type="hidden" name="tbm" value="isch">
         </form>
     </body>
