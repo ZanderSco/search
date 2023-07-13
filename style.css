@@ -1,8 +1,27 @@
 
 .search {
-    color:grey;
+    display: flex;
     border-radius: 10px;
-    font-size: 20px;
-    width: 400px;
-    height: 25px;
+    font-size: 1em;
+    width: 20em;
+    height: 1.5em;
+    border-color: whitesmoke;
+}
+
+ul {
+    list-style: none;
+}
+.r_align {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center {
+    display: grid;
+    justify-content: center;
+}
+
+.width {
+    justify-self: center;
+    margin-top: 2em;
 }
