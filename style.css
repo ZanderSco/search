@@ -59,5 +59,15 @@ p {
 .l_align {
     display: flex;
     justify-content: flex-start;
-    flex-direction:column-reverse;
+    flex-direction: column;
+}
+
+.advance {
+    color: white;
+    background-color: blue;
+    margin-left: 35em;
+}
+
+.space {
+    margin-bottom: 1.5em
 }
