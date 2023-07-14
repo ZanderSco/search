@@ -24,6 +24,7 @@ ul {
 .width {
     justify-self: center;
     margin-top: 2em;
+
 }
 
 .color {
@@ -70,4 +71,16 @@ p {
 
 .space {
     margin-bottom: 1.5em
+}
+
+.width2 {
+    justify-self: center;
+    margin-top: 2em;
+    margin-left: 4em;
+}
+
+.width1 {
+    justify-self: center;
+    margin-top: 2em;
+    margin-left: 2em;
 }
